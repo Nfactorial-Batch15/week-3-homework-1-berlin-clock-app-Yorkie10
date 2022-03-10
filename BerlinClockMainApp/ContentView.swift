@@ -144,6 +144,7 @@ struct ViewCalendar : View{
         let shour = String(format: "%02i", hour)
         Text("Time is \(shour): \(sminute) : \(ssecond) ")
             .frame(height: 32)
+            .foregroundColor(.black)
             .font(.system(size: 20, weight: .bold))
         
     }
@@ -156,6 +157,7 @@ struct pickerDate : View{
     var body:some View{
         HStack{
             DatePicker("Insert Time", selection: $date, displayedComponents: .hourAndMinute)
+                .foregroundColor(.black)
                 .environment(\.locale, Locale(identifier: "ru-RU"))
         }
         .padding([.leading, .trailing])

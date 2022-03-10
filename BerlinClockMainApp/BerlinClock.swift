@@ -1,14 +1,15 @@
 //
-//  BerlinClockMainAppApp.swift
+//  BerlinClock.swift
 //  BerlinClockMainApp
 //
-//  Created by Yerkebulan Sharipov on 15.12.2021.
+//  Created by Yerkebulan Sharipov on 10.03.2022.
 //
 
+import Foundation
 import SwiftUI
 
 @main
-struct BerlinClockMainAppApp: App {
+struct BerlinClockMainApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
